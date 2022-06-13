@@ -1,0 +1,9 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/danieldesmond/CodingProjects/C/sudokuC'
+clear
+echo "Compiling..."
+cc solver.c -o solver
+echo "Running..."
+./solver
+make: Leaving directory `/Users/danieldesmond/CodingProjects/C/sudokuC'
+ 
