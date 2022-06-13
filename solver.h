@@ -4,3 +4,4 @@
 #include <time.h>
 
 void puzzleGenerator(int puzzleArr[9][9]);
+void printPuzzle(int puzzleArr[9][9]);
